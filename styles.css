@@ -1,0 +1,94 @@
+body{
+  color : blueviolet;
+  background-color: yellow; 
+}
+
+div
+{
+  background-color : whitesmoke;
+  color : blueviolet; 
+  width: 200px;
+  height : 100px;
+  padding : 20px; 
+  margin : 20px;
+  border : 3px solid black;   
+}
+a
+{
+  padding : 20px; 
+  margin : 20px;   
+  background-color: yellow;
+   
+}
+
+h1
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align : center;
+  color : blueviolet; 
+  background-color: whitesmoke;
+}
+
+table 
+{
+  border : 1px solid black;
+  border-collapse: collapse;
+  width : 100%; 
+  background-color : whitesmoke; 
+}
+td,th{
+  border : 1px solid black; 
+  padding : 3px; 
+}
+
+
+button 
+{
+  width : 70px;
+  height: 50px; 
+  font-size : 10px;
+  background-color: springgreen; 
+  padding : 5px; 
+  margin : 5px;     
+}
+
+button:hover{
+ background-color : orange; 
+}
+
+div > ul{
+  color : blue;
+}
+
+#flex-box{
+  all : initial; 
+  display : flex;
+  flex-wrap: wrap;
+ 
+}
+
+#flex-box > div {
+  all : initial;
+  background-color : springgreen;
+  color : black;
+  text-align : center; 
+  width: 200px;
+  height : 100px;
+  padding : 20px; 
+  margin : 20px;
+  border : 3px solid black; 
+  
+}
+
+
+
+#links-container{
+  all : initial; 
+  display : flex;
+  flex-wrap: wrap; 
+}
+
+#links-container > div {
+  all : initial;
+  margin : 20px;
+}
